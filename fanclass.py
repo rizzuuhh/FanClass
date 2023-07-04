@@ -46,3 +46,8 @@ fan2.set_color("blue")
 fan2.set_on(False)
 
 # Display each object's properties
+print("Fan 1 properties:")
+print("Speed: " + fan1.get_speed())
+print("Radius: " + str(fan1.get_radius()))
+print("Color: " + fan1.get_color())
+print("On: " + str(fan1.get_on()))
