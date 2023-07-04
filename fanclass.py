@@ -21,6 +21,10 @@ class Fan:
 # Getter methods
     def get_speed(self):
         return self.__speed
+    
+    def get_radius(self):
+        return self.__radius
+
      
 
 # Create the first Fan object
