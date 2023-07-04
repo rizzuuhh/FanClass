@@ -31,7 +31,12 @@ class Fan:
     def get_on(self):
         return self.__on
 
-
 # Create the first Fan object
+fan1 = Fan()
+fan1.set_speed("MAXIMUM")
+fan1.set_radius(10)
+fan1.set_color("yellow")
+fan1.set_on(True)
+
 # Create the second Fan object
 # Display each object's properties
