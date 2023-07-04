@@ -25,7 +25,9 @@ class Fan:
     def get_radius(self):
         return self.__radius
 
-     
+    def get_color(self):
+        return self.__color
+
 
 # Create the first Fan object
 # Create the second Fan object
