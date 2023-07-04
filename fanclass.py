@@ -39,4 +39,10 @@ fan1.set_color("yellow")
 fan1.set_on(True)
 
 # Create the second Fan object
+fan2 = Fan()
+fan2.set_speed("MEDIUM")
+fan2.set_radius(5)
+fan2.set_color("blue")
+fan2.set_on(False)
+
 # Display each object's properties
