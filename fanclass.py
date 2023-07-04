@@ -12,9 +12,11 @@ class Fan:
     def set_radius(self, radius):
         self.__radius = radius
 
+    def set_color(self, color):
+        self.__color = color
+
 
 # Getter methods
 # Create the first Fan object
 # Create the second Fan object
 # Display each object's properties
-
