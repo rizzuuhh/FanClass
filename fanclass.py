@@ -19,6 +19,10 @@ class Fan:
         self.__on = on
 
 # Getter methods
+    def get_speed(self):
+        return self.__speed
+     
+
 # Create the first Fan object
 # Create the second Fan object
 # Display each object's properties
