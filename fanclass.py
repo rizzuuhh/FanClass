@@ -28,6 +28,9 @@ class Fan:
     def get_color(self):
         return self.__color
 
+    def get_on(self):
+        return self.__on
+
 
 # Create the first Fan object
 # Create the second Fan object
