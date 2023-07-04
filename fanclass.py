@@ -6,6 +6,9 @@ class Fan:
         self.__color = "blue"
         self.__on = False
 # Setter methods
+    def set_speed(self, speed):
+        self.__speed = speed
+
 # Getter methods
 # Create the first Fan object
 # Create the second Fan object
